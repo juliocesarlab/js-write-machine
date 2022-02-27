@@ -1,0 +1,20 @@
+{
+  "name": "js-write-machine",
+  "version": "1.0.0",
+  "description": "Javascript class to simulate a write machine effect",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliocesarlab/js-write-machine"
+  },
+  "keywords": ["write", " machine", "effect", "javascript"],
+  "author": "julicesarlab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliocesarlab/js-write-machine/issues"
+  },
+  "homepage": "https://github.com/juliocesarlab/js-write-machine#readme"
+}

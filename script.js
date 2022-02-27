@@ -1,4 +1,4 @@
-class TypeMachine {
+class WriteMachine {
   constructor(phrasesArr, htmlElement, speed) {
     this.phrases = phrasesArr;
     this.text = htmlElement;
@@ -36,4 +36,8 @@ class TypeMachine {
     }
     setTimeout(this.alternatePhrases.bind(this), this.speed)
   } 
+}
+
+module.exports = {
+  WriteMachine
 }
