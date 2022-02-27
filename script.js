@@ -1,6 +1,3 @@
-const phrases = ["Júlio César", "Front-end Developer", "Designer"]
-const typeWritterContent = document.querySelector('#typeWritterContent')
-
 class TypeMachine {
   constructor(phrasesArr, htmlElement, speed) {
     this.phrases = phrasesArr;
@@ -38,8 +35,5 @@ class TypeMachine {
       if (this.j === this.phrases[this.i].length) this.isDeleting = true  
     }
     setTimeout(this.alternatePhrases.bind(this), this.speed)
-  }
-  
+  } 
 }
-
-new TypeMachine(phrases, typeWritterContent ,250).alternatePhrases()
