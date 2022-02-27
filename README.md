@@ -5,7 +5,7 @@ Javascript class to simulate a write machine effect
 
 
 
-![functionalities preview](https://gfycat.com/olddeterminedhorse)
+![functionalities preview](https://github.com/juliocesarlab/assets/blob/main/CPT2202271407-1344x651.gif)
 
 
 
