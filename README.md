@@ -20,10 +20,28 @@ you can copy and paste code or install it from npm (recommended)
 ````bash
   yarn add js-write-machine
 ````
+### Vanilla JS
+````html
+  <!--after paste the content, turn your main script a module (so you can use import/export statements) -->
+  <script **type="module"** src="your-script-path.js"> </script>
+
+  <!-- Inside your main script -->
+  <script>
+    import WriteMachine from "./writeMachine.js";
+
+    const phrasesArray = ["I love to Code", "Hello World", "Welcome !"];
+    const htmlElement = document.querySelector('.myElement');
+    const typeSpeed = 100;
+
+    new WriteMachine(phrasesArray, htmlElement, typeSpeed).alternatePhrases()
+  </script>
+````
 
 ## Examples
 
 ```javascript
+ import WriteMachine from "writeMachine"
+
 const phrases = ["I love to Code", "Hello World", "Welcome !"];
 const htmlElement = document.querySelector('.myElement');
 const typeSpeed = 200;
