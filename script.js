@@ -11,7 +11,7 @@ class WriteMachine {
   }
 
   alternatePhrases() {
-    this.speed = 200
+    
     if (this.i < this.phrases.length) {
       
       if(this.j <= this.phrases[this.i].length && !this.isDeleting) {
@@ -38,6 +38,4 @@ class WriteMachine {
   } 
 }
 
-module.exports = {
-  WriteMachine
-}
+export default WriteMachine
