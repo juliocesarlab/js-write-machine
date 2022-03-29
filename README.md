@@ -9,7 +9,7 @@ Javascript class to simulate a write machine effect
 
 
 ## Get started
-you can copy and paste code or instal it from npm
+you can copy and paste code or install it from npm (recommended)
 ````bash
   npm i js-write-machine or yarn add js-write-machine
 ````
