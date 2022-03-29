@@ -8,7 +8,11 @@ Javascript class to simulate a write machine effect
 ![functionalities preview](https://github.com/juliocesarlab/assets/blob/main/CPT2202271407-1344x651.gif)
 
 
-
+## Get started
+you can copy and paste code or instal it from npm
+````bash
+  npm i js-write-machine or yarn add js-write-machine
+````
 
 ## Examples
 
